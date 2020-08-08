@@ -26,7 +26,8 @@
       "callToActionMode": "button",
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
+      "textAlignment": "center",
+      "blockClass": "vintage" //issue 6 csshandles
     }
   },
 
@@ -40,7 +41,8 @@
     "callToActionMode": "link",
     "callToActionText": "Go to Collection",
     "callToActionUrl": "/sale/d",
-    "textAlignment": "center"
+    "textAlignment": "center",
+    "blockClass": "metal" //issue 6 csshandles
     }
   }
 }
