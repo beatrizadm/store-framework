@@ -4,10 +4,11 @@
       "rich-text", //issue 4 helloworld
       "info-card#button-right", //issue 5 infocard
       "info-card#button-left",
-      "flex-layout.row" //issue 7 flexlayout
+      "flex-layout.row", //issue 7 flexlayout
+      "shelf" //issue 8 shelf
     ]
   },
-
+ 
   //issue 4 helloworld
   "rich-text": {
     "props": {
