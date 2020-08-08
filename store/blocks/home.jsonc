@@ -11,7 +11,7 @@
   //issue 4 helloworld
   "rich-text": {
     "props": {
-      "text":"**Hello, World**",
+      "text": "**Hello, World!**",
       "textPosition": "RIGHT"
     }
   },
