@@ -7,12 +7,14 @@
       "flex-layout.row"
     ]
   },
+
   "rich-text": {
     "props": {
       "text":"**Hello, World**",
       "textPosition": "RIGHT"
     }
   },
+
   "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
@@ -27,6 +29,7 @@
       "blockClass": "vintage"
     }
   },
+  
   "info-card#button-left": {
       "callToActionMode": "link",
       "callToActionText": "Go to Collection",
