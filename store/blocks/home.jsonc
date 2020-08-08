@@ -5,7 +5,8 @@
       "info-card#button-right", //issue 5 infocard
       "info-card#button-left",
       "flex-layout.row", //issue 7 flexlayout
-      "shelf" //issue 8 shelf
+      "shelf", //issue 8 shelf
+      "slider-layout#home"
     ]
   },
  
