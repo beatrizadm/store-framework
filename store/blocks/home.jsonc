@@ -1,19 +1,23 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text",
-      "info-card#button-right",
+      "rich-text", //issue 4 helloworld
+      "info-card#button-right", //issue 5 infocard
       "info-card#button-left",
-      "flex-layout.row",
-      "shelf"
+      "flex-layout.row", //issue 7 flexlayout
+      "shelf" //issue 8 shelf
     ]
   },
+
+  //issue 4 helloworld
   "rich-text": {
     "props": {
-      "text":"**Hello, World**",
+      "text": "**Hello, World!**",
       "textPosition": "RIGHT"
     }
   },
+
+  //issue 5 infocard
   "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
@@ -25,28 +29,41 @@
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
-      "blockClass": "vintage"
+      "blockClass": "vintage" //issue 6 csshandles
     }
   },
+
   "info-card#button-left": {
-      "callToActionMode": "link",
-      "callToActionText": "Go to Collection",
-      "callToActionUrl": "/sale/d",
-      "textAlignment": "center",
-      "blockClass": "metal"
+    "props": {
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+    "headline": "Shining chrome",
+    "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+    "callToActionMode": "link",
+    "callToActionText": "Go to Collection",
+    "callToActionUrl": "/sale/d",
+    "textAlignment": "center",
+    "blockClass": "metal" //issue 6 csshandles
+    }
   },
+
+
+  //issue 7 flexlayout
   "flex-layout.row": {
     "children": [
       "info-card#rethink",
       "flex-layout.col"
     ]
   },
+
   "flex-layout.col": {
     "children" : [
       "image#electronics",
       "image#major-appliance"
     ]
   },
+
  "info-card#rethink": {
     "props": {
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
@@ -56,6 +73,7 @@
       "textPosition": "center"
     }
   },
+
   "image#electronics": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
@@ -64,10 +82,9 @@
   },
 
   "image#major-appliance": {
-    "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
       "maxWidth": "100%"
     }
   }
-}
+} 
