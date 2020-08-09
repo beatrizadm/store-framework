@@ -33,6 +33,7 @@
       "product-identifier.product", //issue 12 pdp2
       "product-price",
       "flex-layout.row#qty-sku", //issue 12 pdp2
+      "shipping-simulator", //issue 12 pdp2
       "buy-button"
     ]
   },
@@ -48,11 +49,10 @@
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
-      "product-quantity",
-      "shipping-simulator"
+      "product-quantity"
     ]
   },
-
+  
   "sku-selector": {
     "props": {
       "initialSelection": "empty",
