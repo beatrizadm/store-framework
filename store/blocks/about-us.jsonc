@@ -62,7 +62,7 @@
 
   "tab-list.item#home1": {
     "props": {
-      "tabId": "majorAppliances", //conecta o item ao content
+      "tabId": "about", //conecta o item ao content
       "label": "Sobre", //issue 19 richtextmarkdown
       "defaultActiveTab": true
     }
@@ -70,8 +70,8 @@
 
   "tab-list.item#home2": {
     "props": {
-      "tabId": "electronics",
-      "label": "Electronics"
+      "tabId": "instagram",
+      "label": "Instagram" //issue 20 iframe
     }
   },
   
@@ -87,16 +87,16 @@
       "rich-text#home1"
     ],
     "props": {
-      "tabId": "majorAppliances" //precisam ser iguais
+      "tabId": "about" //precisam ser iguais
     }
   },
 
   "tab-content.item#home2": {
     "children": [
-      "rich-text#home2"
+      "iframe" //issue 20 iframe
     ],
     "props": {
-      "tabId": "electronics"
+      "tabId": "instagram"
     }
   },
 
@@ -108,11 +108,12 @@
     }
   },
 
-  "rich-text#home2": {
+  //issue 20 iframe
+  "iframe": {
     "props": {
-      "text": "Texto para Electronics",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
+      "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
+      "width": 800,
+      "height": 1000
     }
   }
 }
