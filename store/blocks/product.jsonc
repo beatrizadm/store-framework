@@ -2,7 +2,8 @@
   "store.product": {
     "children": [
       "breadcrumb", //issue 12 pdp2
-      "flex-layout.row#main" //issue 11 pdp
+      "flex-layout.row#main", //issue 11 pdp
+      "shelf.relatedProducts" //issue 13 pdp3
     ]
   },
 
@@ -19,7 +20,7 @@
 
   "flex-layout.col#left": {
     "children": [
-      "product-images"
+      "stack-layout#brand" //issue 13 pdp3
     ]
   },
 
@@ -52,7 +53,22 @@
       "product-quantity"
     ]
   },
+
+  //issue 13 pdp3
+  "stack-layout#brand": {
+    "children": [
+      "product-images",
+      "product-brand"
+    ]
+  },
   
+  "product-brand": {
+    "props": {
+      "height": 30,
+      "displayMode": "logo"
+    }
+  },
+
   "sku-selector": {
     "props": {
       "initialSelection": "empty",
