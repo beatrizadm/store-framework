@@ -54,7 +54,6 @@
 
   "header-row#main-mobile": {
     "children": [
-      "drawer",
       "logo",
       "header-spacer",
       "minicart",
@@ -87,7 +86,7 @@
       "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
     }
   },
-  
+
   "rich-text#header": {
     "props": {
       "text": "**Free Shipping on orders over $50**",
