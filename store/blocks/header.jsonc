@@ -1,4 +1,5 @@
 {
+  //issue 22 header
   "header": {
     "blocks": [
       "header-layout.desktop",
@@ -16,7 +17,8 @@
   "header-layout.desktop": {
     "children": [
       "header-row#notification",
-      "header-row#main"
+      "header-row#main",
+      "header-row#menu" //issue 23 menu
     ]
   },
 
@@ -54,6 +56,7 @@
 
   "header-row#main-mobile": {
     "children": [
+      "drawer", //issue 23 menu
       "logo",
       "header-spacer",
       "minicart",
@@ -92,5 +95,14 @@
       "text": "**Free Shipping on orders over $50**",
       "textPosition": "CENTER"
     }
+  },
+
+  //issue 23 menu
+  "header-row#menu": {
+    "children": [
+      "header-spacer",
+      "vtex.menu@2.x:menu#categories",
+      "header-spacer"
+    ]
   }
 }
