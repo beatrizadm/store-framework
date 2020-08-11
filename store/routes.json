@@ -1,9 +1,9 @@
 {
-    "store.custom#about-us": {
-      "path": "/about-us"
-    },
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
 
-    "store.custom#landing": {
-      "path": "/landing"
-    }
+  "store.custom#landing": {
+    "path": "/landing"
+  }
 }
